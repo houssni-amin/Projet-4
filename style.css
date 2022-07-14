@@ -367,6 +367,26 @@ a:hover {
     z-index: 2;
 }
 
+label{
+    background-color: #F3976C;
+    padding: 5px 3px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group input{
+    border-left: none;
+    height: 16px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.form-group textarea{
+    margin-top: 4px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -786,6 +806,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: black!important;
+    border: none;
 }
 
 .btn-atomic-tangerine:hover {
