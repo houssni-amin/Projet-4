@@ -368,16 +368,15 @@ a:hover {
 }
 
 label{
-    background-color: #F3976C;
-    padding: 5px 3px;
+    font-size: 16px;
+    font-weight: bold !important;
 }
 
 .form-group{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .form-group input{
-    border-left: none;
     height: 16px;
     padding-top: 5px;
     padding-bottom: 3px;
@@ -461,8 +460,8 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .mg-lg {
@@ -765,7 +764,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .portfolio-row {
@@ -851,8 +850,21 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.row .row-no-gutters .social span{
+    color: black;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+}
+
 .white-important{
     color: white!important;
+}
+
+.decal p{
+    margin-top: 290px;
+    margin-left: 50px;
 }
 
 @media (max-width: 1024px) {
@@ -866,6 +878,13 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .decal p{
+        margin-top: 10px;
+        margin-left: 0px;
     }
 }
 
